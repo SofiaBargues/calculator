@@ -3,7 +3,7 @@ export default function OperationButton({ dispatch, operation }) {
   return (
     <button
       onClick={() =>
-        dispatch({ type: ACTIONS.CHOOSE_OPERATION, playload: { operation } })
+        dispatch({ type: ACTIONS.CHOOSE_OPERATION, payload: { operation } })
       }
     >
       {operation}
